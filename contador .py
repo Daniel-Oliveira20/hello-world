@@ -13,4 +13,5 @@ while c == "s":
     else:
         print("NUMEROS IGUAIS")
     c = str(input("Deseja continuar? S/N: "))
+    
 
