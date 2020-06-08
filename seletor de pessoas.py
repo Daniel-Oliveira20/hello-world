@@ -1,3 +1,4 @@
+"""Este é uma algoritimo simples que seleciona pessoas maiores de 18 anos com cabelos castanhos ou ruivos-*/"""
 verif = "s"
 contm = 0
 contf = 0

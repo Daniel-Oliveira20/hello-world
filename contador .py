@@ -1,3 +1,4 @@
+'''Esse é um algoritimo simples que conta a partir de valores digitados pelo usuario'''
 c = "s"
 while c == "s":
     a = int(input("Quer contar de quanto: ")) 
