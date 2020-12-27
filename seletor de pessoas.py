@@ -3,7 +3,7 @@ verif = "s"
 contm = 0
 contf = 0
 while verif != "n":
-    sexo = str(input("Qaul é o sexo? M/F: "))
+    sexo = str(input("Qual é o sexo? M/F: "))
     idade = int(input("Digite a idade: "))
     print("Qual é a cor do cabelo? ")
     print("{1} preto")
