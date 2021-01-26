@@ -7,10 +7,9 @@ do salário ou então o emprestimo será negado.'''
 vc = float(input('Valor da casa: ')) 
 vs = float(input('Valor do salário: '))
 a = int(input('Em quanto anos vai pagar? '))
-p = (vc / a) * 12
+p = vc / (a * 12)
+print(f'Valor da parcela: {p:.2f}')
 if p * 30 / 100 > vs * 30 / 100:
     print('EMPRESTIMO NEGADO!\nValor da parcela excede 30% do salario')
 else:
     print('EMPRESTIMO APROVADO: ')
-
-
