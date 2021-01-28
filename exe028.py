@@ -14,9 +14,11 @@ while v.upper() == 'S':
     if c == j:
         print('VOCÊ ACERTOU! ')
     else:
-        print('BOCÊ ERROU! ')
+        print('VOCÊ ERROU! ')
     v = str(input('Quer continuar? S/N '))
 print('\n\n\n\n -------FIM---------')
+
+
 
 
 
