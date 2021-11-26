@@ -1,9 +1,12 @@
+'''Crie um programa que vai ler vários números e colocar em uma lista. Depois
+disso, crie duas listas externas que vão conter apenas valores pares e os
+valores impares digitados. Ao final, mostre o conteúdo das três listas.'''
 v = []
 vp = []
 vi = []
-
 while True:
     n = int(input('Digite um valor: '))
+    v.append(n)
     if n % 2 == 0:
         vp.append(n)
     else:
